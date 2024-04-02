@@ -1,0 +1,75 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #f3dbe4;
+    margin-top: 45px;
+    background-color: var(--color-gray-200);
+
+}
+
+nav.navbar {
+    background-color: #f3dbe4;
+    color: black !important;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+nav.navbar.navbar-dark .navbar-nav .nav-item a.nav-link {
+    color: rgb(246, 241, 241) !important;
+}
+
+.custom-logo-container {
+    width: 120px;
+    top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.custom-logo {
+    width: 80%;
+    height: auto;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+    position: absolute;
+    top: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+
+
+.navbar-brand img {
+    margin-right: auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefbfb;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 20px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.black-text {
+    color: black !important;
+}

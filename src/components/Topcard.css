@@ -1,0 +1,10 @@
+.desktop1Item {
+    position: absolute;
+    top: 0;
+    background-color: rgb(253, 254, 252);
+    width: 1480px;
+    height: 100px;
+    z-index: -1;
+}
+
+
